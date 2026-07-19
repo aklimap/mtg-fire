@@ -26,7 +26,7 @@ SECRET = os.environ.get("EUMETSAT_SECRET", "")
 
 COLLECTION_FEU = "EO:EUM:DAT:0682"   # Active Fire Monitoring (netCDF) - MTG
 CODES_FEU = [2, 3]                    # categories fiables uniquement
-AOI = {"ouest": -9.0, "sud": 18.0, "est": 12.5, "nord": 38.0}
+AOI = {"ouest": -2.5, "sud": 34.0, "est": 8.7, "nord": 37.1}
 
 
 def telecharger_dernier(dossier):
