@@ -70,7 +70,7 @@ def extraire_feux_algerie(nc):
         return [], debut, fin
     proj = ds["mtg_geos_projection"].attrs
     h = float(proj["perspective_point_height"])
-    x_m = x_rad[colonnes] * h
+    x_m = -x_rad[colonnes] * h
     y_m = y_rad[lignes] * h
     crs_geos = CRS.from_cf({
         "grid_mapping_name": "geostationary",
