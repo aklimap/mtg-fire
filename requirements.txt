@@ -1,0 +1,5 @@
+eumdac
+xarray
+netCDF4
+pyproj
+numpy
