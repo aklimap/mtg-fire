@@ -2,7 +2,8 @@
 mtg_watch.py — Surveillance des feux via MTG (geostationnaire, ~10 min).
 
 Telecharge le dernier fichier feu MTG, extrait les feux categorie 2 et 3,
-les convertit en lat/lon et filtre sur l'Algerie.
+les convertit en lat/lon (avec correction du signe x), filtre sur l'Algerie,
+et ECRIT le resultat dans feux_mtg.json (pour la carte web).
 
 Cles lues depuis l'environnement : EUMETSAT_KEY, EUMETSAT_SECRET
 Dependances : eumdac, xarray, netCDF4, pyproj, numpy
@@ -10,10 +11,12 @@ Lancer :  py mtg_watch.py
 """
 
 import glob
+import json
 import os
 import shutil
 import tempfile
 import zipfile
+from datetime import datetime, timezone
 
 import numpy as np
 import xarray as xr
@@ -27,17 +30,17 @@ SECRET = os.environ.get("EUMETSAT_SECRET", "")
 COLLECTION_FEU = "EO:EUM:DAT:0682"   # Active Fire Monitoring (netCDF) - MTG
 CODES_FEU = [2, 3]                    # categories fiables uniquement
 AOI = {"ouest": -2.5, "sud": 34.0, "est": 8.7, "nord": 37.1}
+SORTIE_JSON = "feux_mtg.json"        # fichier lu par la carte web
 
 
 def telecharger_dernier(dossier):
-    """Telecharge le fichier feu MTG le plus recent. Renvoie le chemin du zip."""
     token = eumdac.AccessToken((KEY, SECRET))
     datastore = eumdac.DataStore(token)
     collection = datastore.get_collection(COLLECTION_FEU)
     dernier = None
     for p in collection.search():
         dernier = p
-        break  # le premier est le plus recent
+        break
     if dernier is None:
         return None
     print(f"Produit le plus recent : {dernier}")
@@ -70,6 +73,7 @@ def extraire_feux_algerie(nc):
         return [], debut, fin
     proj = ds["mtg_geos_projection"].attrs
     h = float(proj["perspective_point_height"])
+    # Correction du signe x (axe geostationnaire oriente vers l'ouest)
     x_m = -x_rad[colonnes] * h
     y_m = y_rad[lignes] * h
     crs_geos = CRS.from_cf({
@@ -98,11 +102,26 @@ def extraire_feux_algerie(nc):
     return feux, debut, fin
 
 
+def ecrire_json(feux, debut, fin):
+    """Ecrit les feux dans feux_mtg.json pour la carte web."""
+    data = {
+        "source": "MTG",
+        "mis_a_jour": datetime.now(timezone.utc).isoformat(timespec="seconds"),
+        "periode_debut": debut,
+        "periode_fin": fin,
+        "nombre": len(feux),
+        "feux": feux,
+    }
+    with open(SORTIE_JSON, "w", encoding="utf-8") as f:
+        json.dump(data, f, ensure_ascii=False, indent=2)
+    print(f"Ecrit dans {SORTIE_JSON}")
+
+
 def main():
     if not KEY or not SECRET:
         print("ERREUR : EUMETSAT_KEY / EUMETSAT_SECRET absents de l'environnement.")
         return
-    with tempfile.TemporaryDirectory() as tmp:
+    with tempfile.TemporaryDirectory(ignore_cleanup_errors=True) as tmp:
         zip_path = telecharger_dernier(tmp)
         if not zip_path:
             print("Aucun produit telecharge.")
@@ -112,12 +131,15 @@ def main():
             print("Pas de .nc dans le telechargement.")
             return
         feux, debut, fin = extraire_feux_algerie(nc)
+
     print(f"Periode : {debut} - {fin} UTC")
     print(f"Feux (cat. 2-3) au-dessus de l'Algerie : {len(feux)}\n")
     for f in feux:
         print(f"  lat={f['lat']}  lon={f['lon']}  categorie={f['categorie']}")
     if not feux:
         print("(Aucun feu fiable en Algerie sur ce creneau — normal si pas d'incendie.)")
+
+    ecrire_json(feux, debut, fin)
 
 
 if __name__ == "__main__":
