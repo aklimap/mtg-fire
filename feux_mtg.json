@@ -1,8 +1,14 @@
 {
   "source": "MTG",
-  "mis_a_jour": "2026-08-16T23:12:39+00:00",
-  "periode_debut": "20260816225000",
-  "periode_fin": "20260816230000",
-  "nombre": 0,
-  "feux": []
+  "mis_a_jour": "2026-08-16T23:33:29+00:00",
+  "periode_debut": "20260816231000",
+  "periode_fin": "20260816232000",
+  "nombre": 1,
+  "feux": [
+    {
+      "lat": 36.8436,
+      "lon": 4.1962,
+      "categorie": 2
+    }
+  ]
 }
