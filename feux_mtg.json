@@ -1,33 +1,13 @@
 {
   "source": "MTG",
-  "mis_a_jour": "2026-08-18T16:55:59+00:00",
-  "periode_debut": "20260818163000",
-  "periode_fin": "20260818164000",
-  "nombre": 5,
+  "mis_a_jour": "2026-08-18T17:20:15+00:00",
+  "periode_debut": "20260818170000",
+  "periode_fin": "20260818171000",
+  "nombre": 1,
   "feux": [
-    {
-      "lat": 36.5467,
-      "lon": 5.0372,
-      "categorie": 2
-    },
-    {
-      "lat": 36.5588,
-      "lon": 3.645,
-      "categorie": 3
-    },
     {
       "lat": 36.559,
       "lon": 3.6682,
-      "categorie": 3
-    },
-    {
-      "lat": 36.5592,
-      "lon": 3.6914,
-      "categorie": 2
-    },
-    {
-      "lat": 36.5844,
-      "lon": 3.6696,
       "categorie": 2
     }
   ]
