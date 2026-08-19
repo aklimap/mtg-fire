@@ -1,34 +1,24 @@
 {
   "source": "MTG",
-  "mis_a_jour": "2026-08-19T14:51:05+00:00",
-  "periode_debut": "20260819143000",
-  "periode_fin": "20260819144000",
+  "mis_a_jour": "2026-08-19T15:22:01+00:00",
+  "periode_debut": "20260819150000",
+  "periode_fin": "20260819151000",
   "nombre": 7,
   "feux": [
     {
-      "lat": 36.5764,
-      "lon": 5.4117,
-      "categorie": 2
-    },
-    {
-      "lat": 36.6016,
-      "lon": 5.3904,
-      "categorie": 3
-    },
-    {
-      "lat": 36.6018,
-      "lon": 5.4137,
-      "categorie": 3
-    },
-    {
       "lat": 36.612,
       "lon": 6.2072,
-      "categorie": 2
+      "categorie": 3
     },
     {
       "lat": 36.6123,
       "lon": 6.2305,
-      "categorie": 2
+      "categorie": 3
+    },
+    {
+      "lat": 36.6126,
+      "lon": 6.2539,
+      "categorie": 3
     },
     {
       "lat": 36.6374,
@@ -38,6 +28,16 @@
     {
       "lat": 36.6377,
       "lon": 6.2329,
+      "categorie": 3
+    },
+    {
+      "lat": 36.638,
+      "lon": 6.2562,
+      "categorie": 3
+    },
+    {
+      "lat": 36.6632,
+      "lon": 6.2352,
       "categorie": 3
     }
   ]
