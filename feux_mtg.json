@@ -1,108 +1,43 @@
 {
   "source": "MTG",
-  "mis_a_jour": "2026-08-23T13:19:00+00:00",
-  "periode_debut": "20260823130000",
-  "periode_fin": "20260823131000",
-  "nombre": 20,
+  "mis_a_jour": "2026-08-23T13:51:21+00:00",
+  "periode_debut": "20260823133000",
+  "periode_fin": "20260823134000",
+  "nombre": 7,
   "feux": [
     {
-      "lat": 35.652,
-      "lon": 5.9602,
+      "lat": 36.3897,
+      "lon": 6.6291,
       "categorie": 2
     },
     {
-      "lat": 36.3731,
-      "lon": 7.2101,
+      "lat": 36.39,
+      "lon": 6.6524,
       "categorie": 3
     },
     {
-      "lat": 36.3735,
-      "lon": 7.2335,
-      "categorie": 3
-    },
-    {
-      "lat": 36.3981,
-      "lon": 7.1894,
+      "lat": 36.3903,
+      "lon": 6.6758,
       "categorie": 2
     },
     {
-      "lat": 36.3985,
-      "lon": 7.2128,
-      "categorie": 3
-    },
-    {
-      "lat": 36.3988,
-      "lon": 7.2362,
-      "categorie": 3
-    },
-    {
-      "lat": 36.4238,
-      "lon": 7.2155,
+      "lat": 36.415,
+      "lon": 6.6316,
       "categorie": 2
     },
     {
-      "lat": 36.4242,
-      "lon": 7.2389,
+      "lat": 36.4153,
+      "lon": 6.6549,
       "categorie": 2
     },
     {
-      "lat": 36.4474,
-      "lon": 7.1012,
-      "categorie": 2
-    },
-    {
-      "lat": 36.4477,
-      "lon": 7.1246,
+      "lat": 36.4157,
+      "lon": 6.6782,
       "categorie": 3
     },
     {
-      "lat": 36.4481,
-      "lon": 7.148,
-      "categorie": 3
-    },
-    {
-      "lat": 36.4727,
-      "lon": 7.1039,
-      "categorie": 3
-    },
-    {
-      "lat": 36.4731,
-      "lon": 7.1273,
-      "categorie": 3
-    },
-    {
-      "lat": 36.4735,
-      "lon": 7.1507,
-      "categorie": 3
-    },
-    {
-      "lat": 36.4738,
-      "lon": 7.1741,
-      "categorie": 2
-    },
-    {
-      "lat": 36.4981,
-      "lon": 7.1066,
-      "categorie": 3
-    },
-    {
-      "lat": 36.4985,
-      "lon": 7.13,
-      "categorie": 3
-    },
-    {
-      "lat": 36.4989,
-      "lon": 7.1534,
-      "categorie": 3
-    },
-    {
-      "lat": 36.4992,
-      "lon": 7.1768,
-      "categorie": 2
-    },
-    {
-      "lat": 36.5239,
-      "lon": 7.1326,
+      "lat": 36.4407,
+      "lon": 6.6574,
       "categorie": 2
     }
   ]
