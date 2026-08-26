@@ -1,24 +1,39 @@
 {
   "source": "MTG",
-  "mis_a_jour": "2026-08-26T09:08:58+00:00",
-  "periode_debut": "20260826084000",
-  "periode_fin": "20260826085000",
-  "nombre": 18,
+  "mis_a_jour": "2026-08-26T09:55:18+00:00",
+  "periode_debut": "20260826093000",
+  "periode_fin": "20260826094000",
+  "nombre": 23,
   "feux": [
     {
-      "lat": 36.5424,
-      "lon": 8.2353,
-      "categorie": 2
+      "lat": 36.4624,
+      "lon": 8.0147,
+      "categorie": 3
+    },
+    {
+      "lat": 36.4628,
+      "lon": 8.0382,
+      "categorie": 3
+    },
+    {
+      "lat": 36.4878,
+      "lon": 8.0177,
+      "categorie": 3
+    },
+    {
+      "lat": 36.4882,
+      "lon": 8.0412,
+      "categorie": 3
     },
     {
       "lat": 36.5674,
       "lon": 8.2149,
-      "categorie": 3
+      "categorie": 2
     },
     {
       "lat": 36.5679,
       "lon": 8.2384,
-      "categorie": 3
+      "categorie": 2
     },
     {
       "lat": 36.5683,
@@ -26,13 +41,18 @@
       "categorie": 2
     },
     {
-      "lat": 36.5929,
-      "lon": 8.218,
-      "categorie": 2
+      "lat": 36.6626,
+      "lon": 6.1884,
+      "categorie": 3
     },
     {
-      "lat": 36.5933,
-      "lon": 8.2415,
+      "lat": 36.6629,
+      "lon": 6.2118,
+      "categorie": 3
+    },
+    {
+      "lat": 36.6877,
+      "lon": 6.1674,
       "categorie": 3
     },
     {
@@ -61,6 +81,11 @@
       "categorie": 3
     },
     {
+      "lat": 36.7132,
+      "lon": 6.1697,
+      "categorie": 3
+    },
+    {
       "lat": 36.7135,
       "lon": 6.1931,
       "categorie": 3
@@ -86,14 +111,14 @@
       "categorie": 3
     },
     {
-      "lat": 36.7368,
-      "lon": 6.0316,
-      "categorie": 2
+      "lat": 36.739,
+      "lon": 6.1955,
+      "categorie": 3
     },
     {
-      "lat": 36.7617,
-      "lon": 5.9871,
-      "categorie": 2
+      "lat": 36.7393,
+      "lon": 6.2189,
+      "categorie": 3
     }
   ]
 }
