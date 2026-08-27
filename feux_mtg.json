@@ -1,130 +1,10 @@
 {
   "source": "MTG",
-  "mis_a_jour": "2026-08-26T23:52:53+00:00",
-  "periode_debut": "20260826233000",
-  "periode_fin": "20260826234000",
-  "nombre": 162,
+  "mis_a_jour": "2026-08-27T05:54:59+00:00",
+  "periode_debut": "20260827053000",
+  "periode_fin": "20260827054000",
+  "nombre": 28,
   "feux": [
-    {
-      "lat": 36.2782,
-      "lon": 7.5963,
-      "categorie": 2
-    },
-    {
-      "lat": 36.2786,
-      "lon": 7.6197,
-      "categorie": 3
-    },
-    {
-      "lat": 36.3035,
-      "lon": 7.5991,
-      "categorie": 3
-    },
-    {
-      "lat": 36.3039,
-      "lon": 7.6225,
-      "categorie": 3
-    },
-    {
-      "lat": 36.3626,
-      "lon": 6.5101,
-      "categorie": 3
-    },
-    {
-      "lat": 36.3941,
-      "lon": 6.9325,
-      "categorie": 2
-    },
-    {
-      "lat": 36.4191,
-      "lon": 6.9117,
-      "categorie": 3
-    },
-    {
-      "lat": 36.4195,
-      "lon": 6.935,
-      "categorie": 3
-    },
-    {
-      "lat": 36.4198,
-      "lon": 6.9584,
-      "categorie": 2
-    },
-    {
-      "lat": 36.4445,
-      "lon": 6.9143,
-      "categorie": 3
-    },
-    {
-      "lat": 36.4448,
-      "lon": 6.9376,
-      "categorie": 3
-    },
-    {
-      "lat": 36.5983,
-      "lon": 5.1108,
-      "categorie": 2
-    },
-    {
-      "lat": 36.5986,
-      "lon": 5.1341,
-      "categorie": 2
-    },
-    {
-      "lat": 36.6024,
-      "lon": 5.4603,
-      "categorie": 2
-    },
-    {
-      "lat": 36.6278,
-      "lon": 5.4624,
-      "categorie": 2
-    },
-    {
-      "lat": 36.6322,
-      "lon": 5.8124,
-      "categorie": 3
-    },
-    {
-      "lat": 36.6325,
-      "lon": 5.8357,
-      "categorie": 3
-    },
-    {
-      "lat": 36.6371,
-      "lon": 6.1861,
-      "categorie": 3
-    },
-    {
-      "lat": 36.6374,
-      "lon": 6.2095,
-      "categorie": 3
-    },
-    {
-      "lat": 36.6377,
-      "lon": 6.2329,
-      "categorie": 3
-    },
-    {
-      "lat": 36.6694,
-      "lon": 8.2273,
-      "categorie": 3
-    },
-    {
-      "lat": 36.6698,
-      "lon": 8.2509,
-      "categorie": 3
-    },
-    {
-      "lat": 36.657,
-      "lon": 5.7679,
-      "categorie": 3
-    },
-    {
-      "lat": 36.6573,
-      "lon": 5.7912,
-      "categorie": 3
-    },
     {
       "lat": 36.6576,
       "lon": 5.8146,
@@ -133,56 +13,6 @@
     {
       "lat": 36.6579,
       "lon": 5.8379,
-      "categorie": 3
-    },
-    {
-      "lat": 36.6582,
-      "lon": 5.8613,
-      "categorie": 3
-    },
-    {
-      "lat": 36.6629,
-      "lon": 6.2118,
-      "categorie": 3
-    },
-    {
-      "lat": 36.6632,
-      "lon": 6.2352,
-      "categorie": 3
-    },
-    {
-      "lat": 36.6635,
-      "lon": 6.2586,
-      "categorie": 3
-    },
-    {
-      "lat": 36.6945,
-      "lon": 8.2069,
-      "categorie": 3
-    },
-    {
-      "lat": 36.6949,
-      "lon": 8.2304,
-      "categorie": 3
-    },
-    {
-      "lat": 36.6953,
-      "lon": 8.254,
-      "categorie": 3
-    },
-    {
-      "lat": 36.6957,
-      "lon": 8.2776,
-      "categorie": 2
-    },
-    {
-      "lat": 36.6825,
-      "lon": 5.77,
-      "categorie": 2
-    },
-    {
-      "lat": 36.6828,
-      "lon": 5.7934,
       "categorie": 3
     },
     {
@@ -201,19 +31,9 @@
       "categorie": 3
     },
     {
-      "lat": 36.6849,
-      "lon": 5.957,
-      "categorie": 3
-    },
-    {
-      "lat": 36.6852,
-      "lon": 5.9803,
-      "categorie": 3
-    },
-    {
       "lat": 36.6855,
       "lon": 6.0037,
-      "categorie": 3
+      "categorie": 2
     },
     {
       "lat": 36.6858,
@@ -223,57 +43,7 @@
     {
       "lat": 36.6861,
       "lon": 6.0505,
-      "categorie": 3
-    },
-    {
-      "lat": 36.6865,
-      "lon": 6.0739,
-      "categorie": 3
-    },
-    {
-      "lat": 36.6868,
-      "lon": 6.0972,
-      "categorie": 3
-    },
-    {
-      "lat": 36.6884,
-      "lon": 6.2142,
-      "categorie": 3
-    },
-    {
-      "lat": 36.6887,
-      "lon": 6.2376,
-      "categorie": 3
-    },
-    {
-      "lat": 36.689,
-      "lon": 6.261,
-      "categorie": 3
-    },
-    {
-      "lat": 36.72,
-      "lon": 8.21,
-      "categorie": 3
-    },
-    {
-      "lat": 36.7204,
-      "lon": 8.2336,
-      "categorie": 3
-    },
-    {
-      "lat": 36.7208,
-      "lon": 8.2571,
-      "categorie": 3
-    },
-    {
-      "lat": 36.7213,
-      "lon": 8.2807,
-      "categorie": 3
-    },
-    {
-      "lat": 36.7083,
-      "lon": 5.7956,
-      "categorie": 3
+      "categorie": 2
     },
     {
       "lat": 36.7086,
@@ -291,104 +61,39 @@
       "categorie": 3
     },
     {
-      "lat": 36.7101,
-      "lon": 5.9358,
-      "categorie": 3
-    },
-    {
-      "lat": 36.7104,
-      "lon": 5.9592,
-      "categorie": 3
-    },
-    {
-      "lat": 36.7107,
-      "lon": 5.9826,
-      "categorie": 3
+      "lat": 36.7095,
+      "lon": 5.8891,
+      "categorie": 2
     },
     {
       "lat": 36.711,
       "lon": 6.006,
-      "categorie": 3
+      "categorie": 2
     },
     {
       "lat": 36.7113,
       "lon": 6.0294,
-      "categorie": 3
+      "categorie": 2
     },
     {
       "lat": 36.7116,
       "lon": 6.0528,
-      "categorie": 3
+      "categorie": 2
     },
     {
       "lat": 36.7119,
       "lon": 6.0761,
-      "categorie": 3
+      "categorie": 2
     },
     {
       "lat": 36.7123,
       "lon": 6.0995,
-      "categorie": 3
-    },
-    {
-      "lat": 36.7126,
-      "lon": 6.1229,
-      "categorie": 3
-    },
-    {
-      "lat": 36.7129,
-      "lon": 6.1463,
-      "categorie": 2
-    },
-    {
-      "lat": 36.7132,
-      "lon": 6.1697,
-      "categorie": 2
-    },
-    {
-      "lat": 36.7135,
-      "lon": 6.1931,
-      "categorie": 3
-    },
-    {
-      "lat": 36.7138,
-      "lon": 6.2165,
-      "categorie": 3
-    },
-    {
-      "lat": 36.7142,
-      "lon": 6.2399,
-      "categorie": 3
-    },
-    {
-      "lat": 36.7145,
-      "lon": 6.2633,
-      "categorie": 2
-    },
-    {
-      "lat": 36.7455,
-      "lon": 8.2131,
-      "categorie": 3
-    },
-    {
-      "lat": 36.7459,
-      "lon": 8.2367,
-      "categorie": 3
-    },
-    {
-      "lat": 36.7464,
-      "lon": 8.2603,
-      "categorie": 3
-    },
-    {
-      "lat": 36.7468,
-      "lon": 8.2839,
       "categorie": 2
     },
     {
       "lat": 36.7341,
       "lon": 5.8211,
-      "categorie": 3
+      "categorie": 2
     },
     {
       "lat": 36.7344,
@@ -406,408 +111,33 @@
       "categorie": 2
     },
     {
-      "lat": 36.7356,
-      "lon": 5.9381,
-      "categorie": 3
-    },
-    {
-      "lat": 36.7359,
-      "lon": 5.9615,
-      "categorie": 3
-    },
-    {
-      "lat": 36.7362,
-      "lon": 5.9849,
-      "categorie": 3
-    },
-    {
-      "lat": 36.7365,
-      "lon": 6.0082,
-      "categorie": 3
-    },
-    {
-      "lat": 36.7368,
-      "lon": 6.0316,
-      "categorie": 3
-    },
-    {
-      "lat": 36.7371,
-      "lon": 6.055,
-      "categorie": 3
-    },
-    {
       "lat": 36.7374,
       "lon": 6.0784,
-      "categorie": 3
+      "categorie": 2
     },
     {
       "lat": 36.7378,
       "lon": 6.1018,
-      "categorie": 3
+      "categorie": 2
     },
     {
       "lat": 36.7381,
       "lon": 6.1252,
-      "categorie": 3
-    },
-    {
-      "lat": 36.7384,
-      "lon": 6.1486,
-      "categorie": 3
-    },
-    {
-      "lat": 36.7387,
-      "lon": 6.1721,
-      "categorie": 3
-    },
-    {
-      "lat": 36.739,
-      "lon": 6.1955,
-      "categorie": 3
-    },
-    {
-      "lat": 36.7393,
-      "lon": 6.2189,
-      "categorie": 3
-    },
-    {
-      "lat": 36.7397,
-      "lon": 6.2423,
       "categorie": 2
-    },
-    {
-      "lat": 36.748,
-      "lon": 4.8424,
-      "categorie": 2
-    },
-    {
-      "lat": 36.7483,
-      "lon": 4.8657,
-      "categorie": 3
-    },
-    {
-      "lat": 36.7486,
-      "lon": 4.8891,
-      "categorie": 2
-    },
-    {
-      "lat": 36.7596,
-      "lon": 5.8233,
-      "categorie": 2
-    },
-    {
-      "lat": 36.7599,
-      "lon": 5.8467,
-      "categorie": 3
-    },
-    {
-      "lat": 36.7602,
-      "lon": 5.8701,
-      "categorie": 3
-    },
-    {
-      "lat": 36.7611,
-      "lon": 5.9403,
-      "categorie": 3
-    },
-    {
-      "lat": 36.7614,
-      "lon": 5.9637,
-      "categorie": 3
-    },
-    {
-      "lat": 36.7617,
-      "lon": 5.9871,
-      "categorie": 3
-    },
-    {
-      "lat": 36.762,
-      "lon": 6.0105,
-      "categorie": 3
-    },
-    {
-      "lat": 36.7623,
-      "lon": 6.0339,
-      "categorie": 3
-    },
-    {
-      "lat": 36.7627,
-      "lon": 6.0573,
-      "categorie": 3
-    },
-    {
-      "lat": 36.763,
-      "lon": 6.0807,
-      "categorie": 3
     },
     {
       "lat": 36.7633,
       "lon": 6.1042,
-      "categorie": 3
-    },
-    {
-      "lat": 36.7636,
-      "lon": 6.1276,
-      "categorie": 3
-    },
-    {
-      "lat": 36.7639,
-      "lon": 6.151,
-      "categorie": 3
-    },
-    {
-      "lat": 36.7642,
-      "lon": 6.1744,
-      "categorie": 3
-    },
-    {
-      "lat": 36.7645,
-      "lon": 6.1978,
-      "categorie": 3
-    },
-    {
-      "lat": 36.7649,
-      "lon": 6.2212,
-      "categorie": 3
-    },
-    {
-      "lat": 36.7652,
-      "lon": 6.2447,
-      "categorie": 3
-    },
-    {
-      "lat": 36.7869,
-      "lon": 5.966,
-      "categorie": 3
-    },
-    {
-      "lat": 36.7872,
-      "lon": 5.9894,
-      "categorie": 3
-    },
-    {
-      "lat": 36.7875,
-      "lon": 6.0128,
-      "categorie": 3
-    },
-    {
-      "lat": 36.7879,
-      "lon": 6.0362,
-      "categorie": 3
-    },
-    {
-      "lat": 36.7882,
-      "lon": 6.0596,
-      "categorie": 3
-    },
-    {
-      "lat": 36.7885,
-      "lon": 6.083,
-      "categorie": 3
-    },
-    {
-      "lat": 36.7888,
-      "lon": 6.1065,
-      "categorie": 3
-    },
-    {
-      "lat": 36.7891,
-      "lon": 6.1299,
-      "categorie": 3
-    },
-    {
-      "lat": 36.7894,
-      "lon": 6.1533,
-      "categorie": 3
+      "categorie": 2
     },
     {
       "lat": 36.7898,
       "lon": 6.1767,
-      "categorie": 3
-    },
-    {
-      "lat": 36.7901,
-      "lon": 6.2002,
-      "categorie": 3
-    },
-    {
-      "lat": 36.7904,
-      "lon": 6.2236,
-      "categorie": 3
-    },
-    {
-      "lat": 36.7907,
-      "lon": 6.247,
-      "categorie": 3
-    },
-    {
-      "lat": 36.791,
-      "lon": 6.2704,
-      "categorie": 3
-    },
-    {
-      "lat": 36.8125,
-      "lon": 5.9682,
       "categorie": 2
-    },
-    {
-      "lat": 36.8128,
-      "lon": 5.9917,
-      "categorie": 3
-    },
-    {
-      "lat": 36.8131,
-      "lon": 6.0151,
-      "categorie": 3
-    },
-    {
-      "lat": 36.8134,
-      "lon": 6.0385,
-      "categorie": 3
-    },
-    {
-      "lat": 36.8137,
-      "lon": 6.0619,
-      "categorie": 3
-    },
-    {
-      "lat": 36.814,
-      "lon": 6.0854,
-      "categorie": 3
-    },
-    {
-      "lat": 36.8143,
-      "lon": 6.1088,
-      "categorie": 3
-    },
-    {
-      "lat": 36.815,
-      "lon": 6.1556,
-      "categorie": 3
     },
     {
       "lat": 36.8153,
       "lon": 6.1791,
-      "categorie": 3
-    },
-    {
-      "lat": 36.8156,
-      "lon": 6.2025,
-      "categorie": 3
-    },
-    {
-      "lat": 36.8159,
-      "lon": 6.226,
-      "categorie": 3
-    },
-    {
-      "lat": 36.8163,
-      "lon": 6.2494,
-      "categorie": 3
-    },
-    {
-      "lat": 36.8166,
-      "lon": 6.2728,
-      "categorie": 3
-    },
-    {
-      "lat": 36.8386,
-      "lon": 6.0174,
-      "categorie": 2
-    },
-    {
-      "lat": 36.839,
-      "lon": 6.0408,
-      "categorie": 3
-    },
-    {
-      "lat": 36.8393,
-      "lon": 6.0642,
-      "categorie": 3
-    },
-    {
-      "lat": 36.8396,
-      "lon": 6.0877,
-      "categorie": 2
-    },
-    {
-      "lat": 36.8405,
-      "lon": 6.158,
-      "categorie": 2
-    },
-    {
-      "lat": 36.8409,
-      "lon": 6.1814,
-      "categorie": 3
-    },
-    {
-      "lat": 36.8412,
-      "lon": 6.2049,
-      "categorie": 3
-    },
-    {
-      "lat": 36.8415,
-      "lon": 6.2283,
-      "categorie": 3
-    },
-    {
-      "lat": 36.8418,
-      "lon": 6.2518,
-      "categorie": 3
-    },
-    {
-      "lat": 36.8543,
-      "lon": 7.0972,
-      "categorie": 2
-    },
-    {
-      "lat": 36.8432,
-      "lon": 4.1496,
-      "categorie": 2
-    },
-    {
-      "lat": 36.8434,
-      "lon": 4.1729,
-      "categorie": 2
-    },
-    {
-      "lat": 36.8795,
-      "lon": 7.0764,
-      "categorie": 2
-    },
-    {
-      "lat": 36.8799,
-      "lon": 7.0999,
-      "categorie": 3
-    },
-    {
-      "lat": 36.8802,
-      "lon": 7.1234,
-      "categorie": 3
-    },
-    {
-      "lat": 36.8679,
-      "lon": 4.0579,
-      "categorie": 2
-    },
-    {
-      "lat": 36.8681,
-      "lon": 4.0812,
-      "categorie": 2
-    },
-    {
-      "lat": 36.8687,
-      "lon": 4.1512,
-      "categorie": 2
-    },
-    {
-      "lat": 36.8689,
-      "lon": 4.1745,
-      "categorie": 3
-    },
-    {
-      "lat": 36.8692,
-      "lon": 4.1978,
       "categorie": 2
     },
     {
