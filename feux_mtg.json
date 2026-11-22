@@ -1,9 +1,9 @@
 {
   "source": "MTG",
-  "mis_a_jour": "2026-11-22T16:00:45+00:00",
-  "periode_debut": "20261122154000",
-  "periode_fin": "20261122155000",
-  "nombre": 5,
+  "mis_a_jour": "2026-11-22T16:10:46+00:00",
+  "periode_debut": "20261122155000",
+  "periode_fin": "20261122160000",
+  "nombre": 7,
   "nombre_confirmes": 2,
   "seuil_confirmation_trames": 2,
   "fenetre_suivi_heures": 24.0,
@@ -17,7 +17,7 @@
       "duree_min": 260,
       "premiere_detection": "20261122015000",
       "derniere_detection": "20261122061000",
-      "derniere_vue_min": 590
+      "derniere_vue_min": 600
     },
     {
       "lat": 36.7799,
@@ -28,7 +28,7 @@
       "duree_min": 370,
       "premiere_detection": "20261122012000",
       "derniere_detection": "20261122073000",
-      "derniere_vue_min": 510
+      "derniere_vue_min": 520
     },
     {
       "lat": 37.0089,
@@ -39,7 +39,7 @@
       "duree_min": 50,
       "premiere_detection": "20261122111000",
       "derniere_detection": "20261122120000",
-      "derniere_vue_min": 240
+      "derniere_vue_min": 250
     },
     {
       "lat": 37.001,
@@ -50,7 +50,7 @@
       "duree_min": 0,
       "premiere_detection": "20261122111000",
       "derniere_detection": "20261122111000",
-      "derniere_vue_min": 290
+      "derniere_vue_min": 300
     },
     {
       "lat": 36.9753,
@@ -61,7 +61,29 @@
       "duree_min": 0,
       "premiere_detection": "20261122112000",
       "derniere_detection": "20261122112000",
-      "derniere_vue_min": 280
+      "derniere_vue_min": 290
+    },
+    {
+      "lat": 33.0928,
+      "lon": -7.6036,
+      "categorie": 3,
+      "statut": "EN_ATTENTE",
+      "n_trames": 1,
+      "duree_min": 0,
+      "premiere_detection": "20261122155000",
+      "derniere_detection": "20261122155000",
+      "derniere_vue_min": 20
+    },
+    {
+      "lat": 33.069,
+      "lon": -7.6013,
+      "categorie": 2,
+      "statut": "EN_ATTENTE",
+      "n_trames": 1,
+      "duree_min": 0,
+      "premiere_detection": "20261122155000",
+      "derniere_detection": "20261122155000",
+      "derniere_vue_min": 20
     }
   ]
 }
