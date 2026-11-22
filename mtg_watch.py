@@ -29,7 +29,7 @@ SECRET = os.environ.get("EUMETSAT_SECRET", "")
 
 COLLECTION_FEU = "EO:EUM:DAT:0682"   # Active Fire Monitoring (netCDF) - MTG
 CODES_FEU = [2, 3]                    # categories fiables uniquement
-AOI = {"ouest": -2.5, "sud": 34.0, "est": 8.7, "nord": 37.1}
+AOI = {"ouest": -8.7, "sud": 18.9, "est": 12.0, "nord": 37.1}   # meme zone que FIRMS (toute l Algerie)
 SORTIE_JSON = "feux_mtg.json"        # fichier lu par la carte web
 
 
