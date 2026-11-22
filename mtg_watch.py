@@ -42,10 +42,18 @@ AOI = {"ouest": -8.7, "sud": 18.9, "est": 12.0, "nord": 37.1}   # meme zone que 
 SORTIE_JSON = "feux_mtg.json"        # fichier lu par la carte web
 ETAT_JSON = "etat_mtg.json"          # etat du suivi temporel entre executions
 
-FENETRE_HEURES = 6.0        # un foyer non revu depuis 6 h sort du suivi
+# 24 h : aligne sur la fenetre FIRMS (DAY_RANGE = 1), sans quoi la quasi-
+# totalite des detections FIRMS serait trop ancienne pour etre croisee.
+FENETRE_HEURES = 24.0       # un foyer non revu depuis 24 h sort du suivi
 RAYON_ASSOC_KM = 3.5        # rayon d'association (pixel FCI ~2-3 km en Algerie)
 SEUIL_CONFIRMATION = 2      # trames distinctes requises pour confirmer un feu
 MAX_TRAMES_GARDEES = 60     # borne la taille de l'etat
+
+# Masque des sources thermiques permanentes, partage avec la chaine FIRMS
+# (torcheres, raffineries) : sans lui, MTG suivrait une torchere pendant 24 h
+# et la presenterait comme un feu confirme.
+URL_SOURCES = ("https://raw.githubusercontent.com/aklimap/fire-watch/main/"
+               "sources_permanentes.json")
 
 
 def telecharger_dernier(dossier):
@@ -117,6 +125,25 @@ def extraire_feux_algerie(nc):
     return feux, debut, fin
 
 
+def charger_sources_permanentes():
+    """Recupere le masque des sources industrielles. Renvoie [] si indisponible."""
+    try:
+        import urllib.request
+        horodatage = int(datetime.now(timezone.utc).timestamp())
+        req = urllib.request.Request(f"{URL_SOURCES}?t={horodatage}",
+                                     headers={"Cache-Control": "no-cache"})
+        with urllib.request.urlopen(req, timeout=30) as r:
+            data = json.load(r)
+        defaut = data.get("rayon_km_defaut", 3.0)
+        src = [(x["lon"], x["lat"], x.get("rayon_km", defaut))
+               for x in data.get("sources", [])]
+        print(f"Masque des sources permanentes : {len(src)} site(s).")
+        return src
+    except Exception as exc:
+        print(f"[!] Masque des sources permanentes indisponible : {exc}")
+        return []
+
+
 def haversine_km(lat1, lon1, lat2, lon2):
     """Distance entre deux points, en kilometres."""
     lat1, lon1, lat2, lon2 = map(math.radians, (lat1, lon1, lat2, lon2))
@@ -146,7 +173,11 @@ def sauver_etat(sites):
                    "sites": sites}, f, ensure_ascii=False, indent=2)
 
 
-def suivre_dans_le_temps(feux, slot, etat):
+def est_permanente(lat, lon, sources):
+    return any(haversine_km(lat, lon, la, lo) <= r for lo, la, r in sources)
+
+
+def suivre_dans_le_temps(feux, slot, etat, sources=()):
     """Associe les detections de la trame courante aux foyers deja suivis.
 
     Un foyer vu sur plusieurs trames distinctes est un vrai feu : sa signature
@@ -183,12 +214,20 @@ def suivre_dans_le_temps(feux, slot, etat):
         candidat["lat"] = round((candidat["lat"] * (n - 1) + f["lat"]) / n, 4)
         candidat["lon"] = round((candidat["lon"] * (n - 1) + f["lon"]) / n, 4)
 
+    maintenant = datetime.now(timezone.utc)
     for s in sites:
         s["n_trames"] = len(s["trames"])
+        s["derniere_vue_min"] = int(
+            (maintenant - _horodatage(s["derniere"])).total_seconds() / 60)
+        s["permanente"] = est_permanente(s["lat"], s["lon"], sources)
         s["duree_min"] = int((_horodatage(s["derniere"])
                               - _horodatage(s["premiere"])).total_seconds() / 60)
-        s["confirme"] = s["n_trames"] >= SEUIL_CONFIRMATION
-        s["statut"] = "CONFIRME" if s["confirme"] else "EN_ATTENTE"
+        s["confirme"] = (s["n_trames"] >= SEUIL_CONFIRMATION
+                         and not s["permanente"])
+        if s["permanente"]:
+            s["statut"] = "PERMANENT"
+        else:
+            s["statut"] = "CONFIRME" if s["confirme"] else "EN_ATTENTE"
 
     sites.sort(key=lambda s: (-s["n_trames"], -s["categorie_max"]))
     return sites
@@ -199,7 +238,8 @@ def ecrire_json(sites, debut, fin):
     feux = [{"lat": s["lat"], "lon": s["lon"], "categorie": s["categorie_max"],
              "statut": s["statut"], "n_trames": s["n_trames"],
              "duree_min": s["duree_min"], "premiere_detection": s["premiere"],
-             "derniere_detection": s["derniere"]} for s in sites]
+             "derniere_detection": s["derniere"],
+             "derniere_vue_min": s["derniere_vue_min"]} for s in sites]
     confirmes = sum(1 for s in sites if s["confirme"])
     data = {"source": "MTG",
             "mis_a_jour": datetime.now(timezone.utc).isoformat(timespec="seconds"),
@@ -231,12 +271,14 @@ def main():
     print(f"Periode : {debut} - {fin} UTC")
     print(f"Detections (cat. 2-3) sur cette trame : {len(feux)}")
 
-    sites = suivre_dans_le_temps(feux, debut, charger_etat())
+    sources = charger_sources_permanentes()
+    sites = suivre_dans_le_temps(feux, debut, charger_etat(), sources)
     sauver_etat(sites)
 
     confirmes = [s for s in sites if s["confirme"]]
+    perm = [s for s in sites if s["permanente"]]
     print(f"Foyers suivis sur {FENETRE_HEURES} h : {len(sites)} "
-          f"({len(confirmes)} confirme(s), {len(sites)-len(confirmes)} en attente)")
+          f"({len(confirmes)} confirme(s), {len(perm)} source(s) permanente(s))")
     for s in sites[:20]:
         print(f"  {s['statut']:10s} lat={s['lat']:.4f} lon={s['lon']:.4f} "
               f"cat={s['categorie_max']} trames={s['n_trames']} "
