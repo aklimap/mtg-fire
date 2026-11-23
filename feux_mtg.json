@@ -1,9 +1,9 @@
 {
   "source": "MTG",
-  "mis_a_jour": "2026-11-23T16:50:42+00:00",
-  "periode_debut": "20261123163000",
-  "periode_fin": "20261123164000",
-  "nombre": 7,
+  "mis_a_jour": "2026-11-23T17:01:23+00:00",
+  "periode_debut": "20261123164000",
+  "periode_fin": "20261123165000",
+  "nombre": 6,
   "nombre_confirmes": 2,
   "seuil_confirmation_trames": 2,
   "fenetre_suivi_heures": 24.0,
@@ -17,7 +17,7 @@
       "duree_min": 840,
       "premiere_detection": "20261122164000",
       "derniere_detection": "20261123064000",
-      "derniere_vue_min": 610
+      "derniere_vue_min": 621
     },
     {
       "lat": 31.6842,
@@ -28,7 +28,7 @@
       "duree_min": 1680,
       "premiere_detection": "20261122015000",
       "derniere_detection": "20261123055000",
-      "derniere_vue_min": 660
+      "derniere_vue_min": 671
     },
     {
       "lat": 36.6488,
@@ -39,7 +39,7 @@
       "duree_min": 10,
       "premiere_detection": "20261123120000",
       "derniere_detection": "20261123121000",
-      "derniere_vue_min": 280
+      "derniere_vue_min": 291
     },
     {
       "lat": 36.6235,
@@ -50,18 +50,7 @@
       "duree_min": 0,
       "premiere_detection": "20261123121000",
       "derniere_detection": "20261123121000",
-      "derniere_vue_min": 280
-    },
-    {
-      "lat": 36.3901,
-      "lon": 9.5312,
-      "categorie": 2,
-      "statut": "EN_ATTENTE",
-      "n_trames": 1,
-      "duree_min": 0,
-      "premiere_detection": "20261122170000",
-      "derniere_detection": "20261122170000",
-      "derniere_vue_min": 1430
+      "derniere_vue_min": 291
     },
     {
       "lat": 36.5275,
@@ -72,7 +61,7 @@
       "duree_min": 0,
       "premiere_detection": "20261122171000",
       "derniere_detection": "20261122171000",
-      "derniere_vue_min": 1420
+      "derniere_vue_min": 1431
     },
     {
       "lat": 36.5529,
@@ -83,7 +72,7 @@
       "duree_min": 0,
       "premiere_detection": "20261123163000",
       "derniere_detection": "20261123163000",
-      "derniere_vue_min": 20
+      "derniere_vue_min": 31
     }
   ]
 }
