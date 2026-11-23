@@ -1,8 +1,8 @@
 {
   "source": "MTG",
-  "mis_a_jour": "2026-11-23T10:10:47+00:00",
-  "periode_debut": "20261123095000",
-  "periode_fin": "20261123100000",
+  "mis_a_jour": "2026-11-23T10:20:41+00:00",
+  "periode_debut": "20261123100000",
+  "periode_fin": "20261123101000",
   "nombre": 9,
   "nombre_confirmes": 2,
   "seuil_confirmation_trames": 2,
@@ -17,7 +17,7 @@
       "duree_min": 840,
       "premiere_detection": "20261122164000",
       "derniere_detection": "20261123064000",
-      "derniere_vue_min": 210
+      "derniere_vue_min": 220
     },
     {
       "lat": 31.6842,
@@ -28,7 +28,7 @@
       "duree_min": 1680,
       "premiere_detection": "20261122015000",
       "derniere_detection": "20261123055000",
-      "derniere_vue_min": 260
+      "derniere_vue_min": 270
     },
     {
       "lat": 37.0089,
@@ -39,7 +39,7 @@
       "duree_min": 50,
       "premiere_detection": "20261122111000",
       "derniere_detection": "20261122120000",
-      "derniere_vue_min": 1330
+      "derniere_vue_min": 1340
     },
     {
       "lat": 37.001,
@@ -50,7 +50,7 @@
       "duree_min": 0,
       "premiere_detection": "20261122111000",
       "derniere_detection": "20261122111000",
-      "derniere_vue_min": 1380
+      "derniere_vue_min": 1390
     },
     {
       "lat": 36.9753,
@@ -61,7 +61,7 @@
       "duree_min": 0,
       "premiere_detection": "20261122112000",
       "derniere_detection": "20261122112000",
-      "derniere_vue_min": 1370
+      "derniere_vue_min": 1380
     },
     {
       "lat": 33.0928,
@@ -72,7 +72,7 @@
       "duree_min": 0,
       "premiere_detection": "20261122155000",
       "derniere_detection": "20261122155000",
-      "derniere_vue_min": 1100
+      "derniere_vue_min": 1110
     },
     {
       "lat": 33.069,
@@ -83,7 +83,7 @@
       "duree_min": 0,
       "premiere_detection": "20261122155000",
       "derniere_detection": "20261122155000",
-      "derniere_vue_min": 1100
+      "derniere_vue_min": 1110
     },
     {
       "lat": 36.3901,
@@ -94,7 +94,7 @@
       "duree_min": 0,
       "premiere_detection": "20261122170000",
       "derniere_detection": "20261122170000",
-      "derniere_vue_min": 1030
+      "derniere_vue_min": 1040
     },
     {
       "lat": 36.5275,
@@ -105,7 +105,7 @@
       "duree_min": 0,
       "premiere_detection": "20261122171000",
       "derniere_detection": "20261122171000",
-      "derniere_vue_min": 1020
+      "derniere_vue_min": 1030
     }
   ]
 }
