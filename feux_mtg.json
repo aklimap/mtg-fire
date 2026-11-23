@@ -1,10 +1,10 @@
 {
   "source": "MTG",
-  "mis_a_jour": "2026-11-23T11:50:46+00:00",
-  "periode_debut": "20261123113000",
-  "periode_fin": "20261123114000",
-  "nombre": 7,
-  "nombre_confirmes": 2,
+  "mis_a_jour": "2026-11-23T12:01:12+00:00",
+  "periode_debut": "20261123114000",
+  "periode_fin": "20261123115000",
+  "nombre": 6,
+  "nombre_confirmes": 1,
   "seuil_confirmation_trames": 2,
   "fenetre_suivi_heures": 24.0,
   "feux": [
@@ -17,7 +17,7 @@
       "duree_min": 840,
       "premiere_detection": "20261122164000",
       "derniere_detection": "20261123064000",
-      "derniere_vue_min": 310
+      "derniere_vue_min": 321
     },
     {
       "lat": 31.6842,
@@ -28,18 +28,7 @@
       "duree_min": 1680,
       "premiere_detection": "20261122015000",
       "derniere_detection": "20261123055000",
-      "derniere_vue_min": 360
-    },
-    {
-      "lat": 37.0089,
-      "lon": 6.5404,
-      "categorie": 3,
-      "statut": "CONFIRME",
-      "n_trames": 4,
-      "duree_min": 50,
-      "premiere_detection": "20261122111000",
-      "derniere_detection": "20261122120000",
-      "derniere_vue_min": 1430
+      "derniere_vue_min": 371
     },
     {
       "lat": 33.0928,
@@ -50,7 +39,7 @@
       "duree_min": 0,
       "premiere_detection": "20261122155000",
       "derniere_detection": "20261122155000",
-      "derniere_vue_min": 1200
+      "derniere_vue_min": 1211
     },
     {
       "lat": 33.069,
@@ -61,7 +50,7 @@
       "duree_min": 0,
       "premiere_detection": "20261122155000",
       "derniere_detection": "20261122155000",
-      "derniere_vue_min": 1200
+      "derniere_vue_min": 1211
     },
     {
       "lat": 36.3901,
@@ -72,7 +61,7 @@
       "duree_min": 0,
       "premiere_detection": "20261122170000",
       "derniere_detection": "20261122170000",
-      "derniere_vue_min": 1130
+      "derniere_vue_min": 1141
     },
     {
       "lat": 36.5275,
@@ -83,7 +72,7 @@
       "duree_min": 0,
       "premiere_detection": "20261122171000",
       "derniere_detection": "20261122171000",
-      "derniere_vue_min": 1120
+      "derniere_vue_min": 1131
     }
   ]
 }
