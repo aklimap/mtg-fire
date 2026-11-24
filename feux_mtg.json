@@ -1,8 +1,8 @@
 {
   "source": "MTG",
-  "mis_a_jour": "2026-11-24T01:50:37+00:00",
-  "periode_debut": "20261124013000",
-  "periode_fin": "20261124014000",
+  "mis_a_jour": "2026-11-24T02:00:53+00:00",
+  "periode_debut": "20261124014000",
+  "periode_fin": "20261124015000",
   "nombre": 7,
   "nombre_confirmes": 2,
   "seuil_confirmation_trames": 2,
@@ -17,18 +17,18 @@
       "duree_min": 840,
       "premiere_detection": "20261122164000",
       "derniere_detection": "20261123064000",
-      "derniere_vue_min": 1150
+      "derniere_vue_min": 1160
     },
     {
       "lat": 31.6842,
       "lon": 6.0684,
       "categorie": 3,
       "statut": "PERMANENT",
-      "n_trames": 56,
-      "duree_min": 2810,
+      "n_trames": 57,
+      "duree_min": 2870,
       "premiere_detection": "20261122015000",
-      "derniere_detection": "20261124004000",
-      "derniere_vue_min": 70
+      "derniere_detection": "20261124014000",
+      "derniere_vue_min": 20
     },
     {
       "lat": 36.7655,
@@ -39,7 +39,7 @@
       "duree_min": 370,
       "premiere_detection": "20261123183000",
       "derniere_detection": "20261124004000",
-      "derniere_vue_min": 70
+      "derniere_vue_min": 80
     },
     {
       "lat": 36.74,
@@ -50,7 +50,7 @@
       "duree_min": 50,
       "premiere_detection": "20261123235000",
       "derniere_detection": "20261124004000",
-      "derniere_vue_min": 70
+      "derniere_vue_min": 80
     },
     {
       "lat": 36.6488,
@@ -61,7 +61,7 @@
       "duree_min": 10,
       "premiere_detection": "20261123120000",
       "derniere_detection": "20261123121000",
-      "derniere_vue_min": 820
+      "derniere_vue_min": 830
     },
     {
       "lat": 36.6235,
@@ -72,7 +72,7 @@
       "duree_min": 0,
       "premiere_detection": "20261123121000",
       "derniere_detection": "20261123121000",
-      "derniere_vue_min": 820
+      "derniere_vue_min": 830
     },
     {
       "lat": 36.5529,
@@ -83,7 +83,7 @@
       "duree_min": 0,
       "premiere_detection": "20261123163000",
       "derniere_detection": "20261123163000",
-      "derniere_vue_min": 560
+      "derniere_vue_min": 570
     }
   ]
 }
