@@ -1,8 +1,8 @@
 {
   "source": "MTG",
-  "mis_a_jour": "2026-11-24T19:20:51+00:00",
-  "periode_debut": "20261124190000",
-  "periode_fin": "20261124191000",
+  "mis_a_jour": "2026-11-24T19:31:12+00:00",
+  "periode_debut": "20261124191000",
+  "periode_fin": "20261124192000",
   "nombre": 4,
   "nombre_confirmes": 0,
   "seuil_confirmation_trames": 2,
@@ -14,10 +14,10 @@
       "categorie": 3,
       "statut": "PERMANENT",
       "n_trames": 60,
-      "duree_min": 3910,
+      "duree_min": 3920,
       "premiere_detection": "20261122015000",
-      "derniere_detection": "20261124190000",
-      "derniere_vue_min": 20
+      "derniere_detection": "20261124191000",
+      "derniere_vue_min": 21
     },
     {
       "lat": 36.7399,
@@ -28,7 +28,7 @@
       "duree_min": 1090,
       "premiere_detection": "20261123235000",
       "derniere_detection": "20261124180000",
-      "derniere_vue_min": 80
+      "derniere_vue_min": 91
     },
     {
       "lat": 36.7655,
@@ -39,7 +39,7 @@
       "duree_min": 370,
       "premiere_detection": "20261123183000",
       "derniere_detection": "20261124004000",
-      "derniere_vue_min": 1120
+      "derniere_vue_min": 1131
     },
     {
       "lat": 36.7704,
@@ -50,7 +50,7 @@
       "duree_min": 0,
       "premiere_detection": "20261124153000",
       "derniere_detection": "20261124153000",
-      "derniere_vue_min": 230
+      "derniere_vue_min": 241
     }
   ]
 }
