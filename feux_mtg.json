@@ -1,8 +1,8 @@
 {
   "source": "MTG",
-  "mis_a_jour": "2026-11-25T21:10:41+00:00",
-  "periode_debut": "20261125205000",
-  "periode_fin": "20261125210000",
+  "mis_a_jour": "2026-11-25T21:20:48+00:00",
+  "periode_debut": "20261125210000",
+  "periode_fin": "20261125211000",
   "nombre": 2,
   "nombre_confirmes": 1,
   "seuil_confirmation_trames": 2,
@@ -14,10 +14,10 @@
       "categorie": 3,
       "statut": "PERMANENT",
       "n_trames": 60,
-      "duree_min": 5450,
+      "duree_min": 5470,
       "premiere_detection": "20261122015000",
-      "derniere_detection": "20261125204000",
-      "derniere_vue_min": 30
+      "derniere_detection": "20261125210000",
+      "derniere_vue_min": 20
     },
     {
       "lat": 35.8137,
@@ -28,7 +28,7 @@
       "duree_min": 60,
       "premiere_detection": "20261125194000",
       "derniere_detection": "20261125204000",
-      "derniere_vue_min": 30
+      "derniere_vue_min": 40
     }
   ]
 }
