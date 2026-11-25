@@ -1,5 +1,5 @@
 {
-  "mis_a_jour": "2026-11-25T17:50:42+00:00",
+  "mis_a_jour": "2026-11-25T18:01:24+00:00",
   "sites": [
     {
       "lat": 31.6842,
@@ -70,28 +70,9 @@
       "premiere": "20261122015000",
       "derniere": "20261125170000",
       "n_trames": 60,
-      "derniere_vue_min": 50,
+      "derniere_vue_min": 61,
       "permanente": true,
       "duree_min": 5230,
-      "confirme": false,
-      "statut": "PERMANENT"
-    },
-    {
-      "lat": 36.7399,
-      "lon": 6.2613,
-      "categorie_max": 3,
-      "trames": [
-        "20261123235000",
-        "20261124000000",
-        "20261124004000",
-        "20261124180000"
-      ],
-      "premiere": "20261123235000",
-      "derniere": "20261124180000",
-      "n_trames": 4,
-      "derniere_vue_min": 1430,
-      "permanente": true,
-      "duree_min": 1090,
       "confirme": false,
       "statut": "PERMANENT"
     }
