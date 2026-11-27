@@ -1,6 +1,24 @@
 {
-  "mis_a_jour": "2026-11-27T16:40:38+00:00",
+  "mis_a_jour": "2026-11-27T16:50:39+00:00",
   "sites": [
+    {
+      "lat": 31.6842,
+      "lon": 6.0684,
+      "categorie_max": 2,
+      "trames": [
+        "20261127010000",
+        "20261127013000",
+        "20261127163000"
+      ],
+      "premiere": "20261127010000",
+      "derniere": "20261127163000",
+      "n_trames": 3,
+      "derniere_vue_min": 20,
+      "permanente": true,
+      "duree_min": 930,
+      "confirme": false,
+      "statut": "PERMANENT"
+    },
     {
       "lat": 36.7528,
       "lon": 6.264,
@@ -12,26 +30,9 @@
       "premiere": "20261126221000",
       "derniere": "20261127004000",
       "n_trames": 2,
-      "derniere_vue_min": 960,
+      "derniere_vue_min": 970,
       "permanente": true,
       "duree_min": 150,
-      "confirme": false,
-      "statut": "PERMANENT"
-    },
-    {
-      "lat": 31.6842,
-      "lon": 6.0684,
-      "categorie_max": 2,
-      "trames": [
-        "20261127010000",
-        "20261127013000"
-      ],
-      "premiere": "20261127010000",
-      "derniere": "20261127013000",
-      "n_trames": 2,
-      "derniere_vue_min": 910,
-      "permanente": true,
-      "duree_min": 30,
       "confirme": false,
       "statut": "PERMANENT"
     },
@@ -45,7 +46,7 @@
       "premiere": "20261126204000",
       "derniere": "20261126204000",
       "n_trames": 1,
-      "derniere_vue_min": 1200,
+      "derniere_vue_min": 1210,
       "permanente": false,
       "duree_min": 0,
       "confirme": false,
@@ -61,7 +62,7 @@
       "premiere": "20261127111000",
       "derniere": "20261127111000",
       "n_trames": 1,
-      "derniere_vue_min": 330,
+      "derniere_vue_min": 340,
       "permanente": false,
       "duree_min": 0,
       "confirme": false,
@@ -77,7 +78,7 @@
       "premiere": "20261127113000",
       "derniere": "20261127113000",
       "n_trames": 1,
-      "derniere_vue_min": 310,
+      "derniere_vue_min": 320,
       "permanente": false,
       "duree_min": 0,
       "confirme": false,
