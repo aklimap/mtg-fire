@@ -1,5 +1,5 @@
 {
-  "mis_a_jour": "2026-11-27T17:20:44+00:00",
+  "mis_a_jour": "2026-11-27T17:31:03+00:00",
   "sites": [
     {
       "lat": 31.6842,
@@ -11,14 +11,15 @@
         "20261127163000",
         "20261127164000",
         "20261127165000",
-        "20261127170000"
+        "20261127170000",
+        "20261127171000"
       ],
       "premiere": "20261127010000",
-      "derniere": "20261127170000",
-      "n_trames": 6,
-      "derniere_vue_min": 20,
+      "derniere": "20261127171000",
+      "n_trames": 7,
+      "derniere_vue_min": 21,
       "permanente": true,
-      "duree_min": 960,
+      "duree_min": 970,
       "confirme": false,
       "statut": "PERMANENT"
     },
@@ -33,7 +34,7 @@
       "premiere": "20261126221000",
       "derniere": "20261127004000",
       "n_trames": 2,
-      "derniere_vue_min": 1000,
+      "derniere_vue_min": 1011,
       "permanente": true,
       "duree_min": 150,
       "confirme": false,
@@ -49,7 +50,7 @@
       "premiere": "20261126204000",
       "derniere": "20261126204000",
       "n_trames": 1,
-      "derniere_vue_min": 1240,
+      "derniere_vue_min": 1251,
       "permanente": false,
       "duree_min": 0,
       "confirme": false,
@@ -65,7 +66,7 @@
       "premiere": "20261127111000",
       "derniere": "20261127111000",
       "n_trames": 1,
-      "derniere_vue_min": 370,
+      "derniere_vue_min": 381,
       "permanente": false,
       "duree_min": 0,
       "confirme": false,
@@ -81,7 +82,7 @@
       "premiere": "20261127113000",
       "derniere": "20261127113000",
       "n_trames": 1,
-      "derniere_vue_min": 350,
+      "derniere_vue_min": 361,
       "permanente": false,
       "duree_min": 0,
       "confirme": false,
