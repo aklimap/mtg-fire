@@ -1,5 +1,5 @@
 {
-  "mis_a_jour": "2026-11-28T00:00:59+00:00",
+  "mis_a_jour": "2026-11-28T00:10:39+00:00",
   "sites": [
     {
       "lat": 31.6842,
@@ -32,14 +32,15 @@
         "20261127224000",
         "20261127230000",
         "20261127233000",
-        "20261127234000"
+        "20261127234000",
+        "20261127235000"
       ],
       "premiere": "20261127010000",
-      "derniere": "20261127234000",
-      "n_trames": 27,
+      "derniere": "20261127235000",
+      "n_trames": 28,
       "derniere_vue_min": 20,
       "permanente": true,
-      "duree_min": 1360,
+      "duree_min": 1370,
       "confirme": false,
       "statut": "PERMANENT"
     },
@@ -57,26 +58,27 @@
       "premiere": "20261127205000",
       "derniere": "20261127223000",
       "n_trames": 5,
-      "derniere_vue_min": 90,
+      "derniere_vue_min": 100,
       "permanente": false,
       "duree_min": 100,
       "confirme": true,
       "statut": "CONFIRME"
     },
     {
-      "lat": 36.7528,
-      "lon": 6.264,
-      "categorie_max": 2,
+      "lat": 36.7566,
+      "lon": 6.2592,
+      "categorie_max": 3,
       "trames": [
         "20261126221000",
-        "20261127004000"
+        "20261127004000",
+        "20261127235000"
       ],
       "premiere": "20261126221000",
-      "derniere": "20261127004000",
-      "n_trames": 2,
-      "derniere_vue_min": 1400,
+      "derniere": "20261127235000",
+      "n_trames": 3,
+      "derniere_vue_min": 20,
       "permanente": true,
-      "duree_min": 150,
+      "duree_min": 1540,
       "confirme": false,
       "statut": "PERMANENT"
     },
@@ -90,7 +92,7 @@
       "premiere": "20261127111000",
       "derniere": "20261127111000",
       "n_trames": 1,
-      "derniere_vue_min": 770,
+      "derniere_vue_min": 780,
       "permanente": false,
       "duree_min": 0,
       "confirme": false,
@@ -106,7 +108,7 @@
       "premiere": "20261127113000",
       "derniere": "20261127113000",
       "n_trames": 1,
-      "derniere_vue_min": 750,
+      "derniere_vue_min": 760,
       "permanente": false,
       "duree_min": 0,
       "confirme": false,
